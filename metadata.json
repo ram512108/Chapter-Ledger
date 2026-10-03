@@ -1,0 +1,6 @@
+{
+  "name": "Chapter Ledger",
+  "description": "Offline-first, non-linear chapter-level book tracking app with reading order timelines, stats, notes, quotes, and local backups.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
