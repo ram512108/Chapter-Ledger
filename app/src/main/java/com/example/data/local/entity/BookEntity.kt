@@ -13,7 +13,7 @@ data class BookEntity(
     val title: String,
     val author: String,
     val isbn: String,
-    val coverImageUrl: String?,
+    val coverImageUrl: String? = null,
     val totalChapters: Int,
     val totalPages: Int,
     val currentPage: Int = 0,
