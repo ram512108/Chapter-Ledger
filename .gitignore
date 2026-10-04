@@ -16,3 +16,7 @@
 local.properties
 .env
 debug.keystore
+
+chapter-ledger-upload.jks
+
+keystore-base64.txt
