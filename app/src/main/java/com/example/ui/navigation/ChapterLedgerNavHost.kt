@@ -27,8 +27,8 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
-import com.example.ChapterLedgerApp
-import com.example.ui.components.ChapterLedgerBottomBar
+import com.example.ChapterlyApp
+import com.example.ui.components.ChapterlyBottomBar
 import com.example.ui.screens.AddBookScreen
 import com.example.ui.screens.BookDetailScreen
 import com.example.ui.screens.LibraryScreen
@@ -51,12 +51,12 @@ data class BottomNavItem(
 )
 
 @Composable
-fun ChapterLedgerNavHost(modifier: Modifier = Modifier) {
+fun ChapterlyNavHost(modifier: Modifier = Modifier) {
     val navController = rememberNavController()
     val navBackStackEntry by navController.currentBackStackEntryAsState()
     val currentRoute = navBackStackEntry?.destination?.route
 
-    val app = LocalContext.current.applicationContext as ChapterLedgerApp
+    val app = LocalContext.current.applicationContext as ChapterlyApp
     val container = app.container
 
     val bottomNavItems = listOf(
@@ -97,7 +97,7 @@ fun ChapterLedgerNavHost(modifier: Modifier = Modifier) {
         contentWindowInsets = WindowInsets(0, 0, 0, 0),
         bottomBar = {
             if (showBottomBar) {
-                ChapterLedgerBottomBar(
+                ChapterlyBottomBar(
                     currentRoute = currentRoute,
                     items = bottomNavItems,
                     onNavigate = { route ->

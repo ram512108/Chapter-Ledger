@@ -45,7 +45,7 @@ import com.example.ui.theme.TextSecondary
 import com.example.ui.theme.TextTertiary
 
 @Composable
-fun ChapterLedgerBottomBar(
+fun ChapterlyBottomBar(
     currentRoute: String?,
     items: List<BottomNavItem>,
     onNavigate: (String) -> Unit,
