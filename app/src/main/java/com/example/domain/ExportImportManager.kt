@@ -13,7 +13,7 @@ object ExportImportManager {
     fun exportToJson(books: List<Book>): String {
         val root = JSONObject()
         root.put("version", 1)
-        root.put("appName", "Chapter Ledger")
+        root.put("appName", "Chapterly")
         root.put("exportDate", System.currentTimeMillis())
 
         val booksArray = JSONArray()

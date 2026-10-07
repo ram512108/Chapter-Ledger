@@ -129,7 +129,7 @@ fun SettingsScreen(
             ) {
                 Column(modifier = Modifier.padding(16.dp)) {
                     Text(
-                        text = "Chapter Ledger",
+                        text = "Chapterly",
                         style = MaterialTheme.typography.titleLarge.copy(
                             fontWeight = FontWeight.Bold,
                             fontSize = 18.sp
@@ -327,7 +327,7 @@ fun SettingsScreen(
                                 color = TextPrimary
                             )
                             Text(
-                                text = "Restore previous Chapter Ledger library backups",
+                                text = "Restore previous Chapterly library backups",
                                 style = MaterialTheme.typography.labelSmall.copy(color = TextSecondary)
                             )
                         }
@@ -461,7 +461,7 @@ fun SettingsScreen(
                     .padding(20.dp)
             ) {
                 Text(
-                    text = "Chapter Ledger",
+                    text = "Chapterly",
                     style = MaterialTheme.typography.titleMedium.copy(fontWeight = FontWeight.Bold),
                     color = TextPrimary
                 )
@@ -621,7 +621,7 @@ fun SettingsScreen(
                 )
                 Spacer(modifier = Modifier.height(6.dp))
                 Text(
-                    text = "Paste your exported Chapter Ledger JSON backup string:",
+                    text = "Paste your exported Chapterly JSON backup string:",
                     style = MaterialTheme.typography.bodySmall,
                     color = TextSecondary
                 )

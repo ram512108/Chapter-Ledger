@@ -22,6 +22,6 @@ dependencyResolutionManagement {
   }
 }
 
-rootProject.name = "Chapter Ledger"
+rootProject.name = "Chapterly"
 
 include(":app")

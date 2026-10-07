@@ -190,7 +190,7 @@ fun LibraryScreen(
                     } else {
                         Column {
                             Text(
-                                text = "Chapter Ledger",
+                                text = "Chapterly",
                                 style = MaterialTheme.typography.headlineMedium.copy(
                                     fontWeight = FontWeight.Bold,
                                     letterSpacing = (-0.3).sp

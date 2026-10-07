@@ -1,12 +1,12 @@
-# Chapter Ledger Privacy Policy
+# Chapterly Privacy Policy
 
 **Last updated: October 3, 2026**
 
-Chapter Ledger is an offline-first reading tracker. This policy describes what information the app handles.
+Chapterly is an offline-first reading tracker. This policy describes what information the app handles.
 
 ## Information stored on your device
 
-Chapter Ledger stores your library and reading information locally on your Android device, including book titles, authors, ISBNs, chapters, reading progress, reading dates, notes, quotes, ratings, shelves, goals, and reading sessions. This information is not uploaded to a Chapter Ledger server because the app does not operate a Chapter Ledger account or cloud database.
+Chapterly stores your library and reading information locally on your Android device, including book titles, authors, ISBNs, chapters, reading progress, reading dates, notes, quotes, ratings, shelves, goals, and reading sessions. This information is not uploaded to a Chapterly server because the app does not operate a Chapterly account or cloud database.
 
 ## Book search and ISBN lookup
 
@@ -28,7 +28,7 @@ The app requests internet access for Open Library book lookup, network-state acc
 
 ## Children's privacy
 
-Chapter Ledger is a general reading-tracker app and is not designed specifically for children.
+Chapterly is a general reading-tracker app and is not designed specifically for children.
 
 ## Security
 

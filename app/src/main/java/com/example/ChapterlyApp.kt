@@ -8,7 +8,7 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.launch
 
-class ChapterLedgerApp : Application() {
+class ChapterlyApp : Application() {
 
     lateinit var container: AppContainer
         private set

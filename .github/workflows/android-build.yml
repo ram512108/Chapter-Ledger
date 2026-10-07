@@ -1,4 +1,4 @@
-name: Build Chapter Ledger
+name: Build Chapterly
 
 on:
   workflow_dispatch:
@@ -33,7 +33,7 @@ jobs:
 
       - name: Build signed release AAB
         env:
-          KEYSTORE_PATH: ${{ github.workspace }}/chapter-ledger-upload.jks
+          KEYSTORE_PATH: ${{ github.workspace }}/chapterly-upload.jks
           KEYSTORE_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}
           KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
           KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
@@ -42,7 +42,7 @@ jobs:
       - name: Upload AAB
         uses: actions/upload-artifact@v4
         with:
-          name: chapter-ledger-release
+          name: chapterly-release
           path: app/build/outputs/bundle/release/app-release.aab
 
       - name: Remove signing keystore

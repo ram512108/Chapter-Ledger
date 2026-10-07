@@ -1,6 +1,6 @@
-# Chapter Ledger
+# Chapterly
 
-Chapter Ledger is an offline-first Android reading tracker built with Kotlin and Jetpack Compose. It stores the user's library, chapter progress, notes, quotes, ratings, goals, and reading sessions locally on the device.
+Chapterly is an offline-first Android reading tracker built with Kotlin and Jetpack Compose. It stores the user's library, chapter progress, notes, quotes, ratings, goals, and reading sessions locally on the device.
 
 ## Build
 
